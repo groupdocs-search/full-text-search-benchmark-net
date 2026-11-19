@@ -1,0 +1,43 @@
+name: Bug report
+description: The benchmark fails, measures wrongly or reports something unclear.
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+      description: What you expected and what the benchmark did instead.
+    validations:
+      required: true
+  - type: input
+    id: library
+    attributes:
+      label: GroupDocs.Search version
+      placeholder: "26.11"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system, .NET version and hardware
+      description: The first lines of the log contain them.
+      placeholder: Windows 11, .NET 10.0.0, Intel Core i7-12700, 32 GB
+    validations:
+      required: true
+  - type: textarea
+    id: configuration
+    attributes:
+      label: Changed configuration values
+      description: The values of the configuration section that differ from the defaults. Do not paste license files.
+      render: csharp
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: The relevant part of the .log file, or attach the .log and .csv files.
+      render: text
+  - type: textarea
+    id: documents
+    attributes:
+      label: Documents
+      description: The number, the formats and the total size of the documents.

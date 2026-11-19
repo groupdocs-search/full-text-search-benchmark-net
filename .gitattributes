@@ -1,0 +1,15 @@
+# Normalize the line endings of text files in the repository.
+* text=auto
+
+*.cs      text diff=csharp
+*.csproj  text
+*.slnx    text
+*.json    text
+*.md      text diff=markdown
+*.yml     text
+*.csv     text
+
+# Binary files.
+*.png     binary
+*.jpg     binary
+*.lic     binary

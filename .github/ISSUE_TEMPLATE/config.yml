@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions about GroupDocs.Search
+    url: https://forum.groupdocs.com/c/search/
+    about: Ask questions about the library and its performance on the free support forum.
+  - name: Documentation
+    url: https://docs.groupdocs.com/search/net/
+    about: The developer guide and the performance article of GroupDocs.Search for .NET.

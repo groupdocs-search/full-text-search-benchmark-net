@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="CHANGELOG.md" />
+    <File Path="global.json" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="docs/configuration.md" />
+    <File Path="docs/results/govdocs1-26.11.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/GroupDocs.Search.Benchmark/GroupDocs.Search.Benchmark.csproj" />
+  </Folder>
+</Solution>

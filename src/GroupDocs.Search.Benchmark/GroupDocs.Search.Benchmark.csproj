@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>GroupDocs.Search.Benchmark</RootNamespace>
+    <AssemblyName>GroupDocs.Search.Benchmark</AssemblyName>
+    <Version>1.0.0</Version>
+    <Product>GroupDocs.Search Benchmarks</Product>
+    <Description>Measures the extraction, indexing, optimization and search performance of GroupDocs.Search for .NET.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GroupDocs.Search" Version="26.11.0" />
+  </ItemGroup>
+
+</Project>

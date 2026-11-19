@@ -1,0 +1,26 @@
+name: Share results
+description: Share the results of a run on your documents and hardware.
+labels: [results]
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Processor, memory, disks, operating system, .NET and GroupDocs.Search versions.
+    validations:
+      required: true
+  - type: textarea
+    id: documents
+    attributes:
+      label: Documents
+      description: The number, the formats and the total size of the documents.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results
+      description: Attach the .csv and .log files of the run, or paste the summary table.
+      render: text
+    validations:
+      required: true
